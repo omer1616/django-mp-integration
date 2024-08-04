@@ -17,7 +17,6 @@ class Township(StartedModel):
     city = models.ForeignKey(City, on_delete=models.CASCADE, related_name='township')
 
 
-# Create your models here.
 class Address(StartedModel):
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
