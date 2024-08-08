@@ -1,0 +1,215 @@
+{
+  "data": {
+    "listOrder": {
+      "data": [
+        {
+          "billingAddress": {
+            "addressLine1": "ikas A.Ş. Koru Mah. Ahmet Taner Kışlalı Cad. No:4/12 North Star İş Merkezi",
+            "addressLine2": null,
+            "city": {
+              "code": null,
+              "id": "6f9272a3-9924-4223-baf8-9b21c9360f0c",
+              "name": "Ankara"
+            },
+            "company": null,
+            "country": {
+              "code": "TUR",
+              "id": "da8c5f2a-8d37-48a8-beff-6ab3793a1861",
+              "name": "Turkey"
+            },
+            "district": {
+              "code": null,
+              "id": "0774fbd3-b818-463a-b697-2e28a8a6daed",
+              "name": "Çankaya"
+            },
+            "firstName": "ikas",
+            "identityNumber": null,
+            "isDefault": false,
+            "lastName": "docs",
+            "phone": "+905555555555",
+            "postalCode": null,
+            "state": {
+              "code": null,
+              "id": "dcb9135c-4b84-4c06-9a42-f359317a9b78",
+              "name": "Default"
+            },
+            "taxNumber": null,
+            "taxOffice": null
+          },
+          "cancelReason": null,
+          "cancelledAt": null,
+          "clientIp": "176.42.29.28",
+          "createdAt": 1637759203328,
+          "currencyCode": "TRY",
+          "currencyRates": [],
+          "customer": {
+            "email": "ikas@ikas.com",
+            "firstName": "ikas",
+            "id": "fa8b6fbc-210d-4488-88ab-a7bea0a2648b",
+            "identityNumber": null,
+            "lastName": "docs",
+            "phone": null
+          },
+          "deleted": false,
+          "host": "apidocs.myikas.dev",
+          "id": "84ffbfd2-c92c-4f22-9675-8d3edb7a9084",
+          "merchantId": "75d8a449-2feb-4230-9eb4-9014673324d5",
+          "note": null,
+          "orderAdjustments": [
+            {
+              "amount": 149.5,
+              "amountType": "AMOUNT",
+              "campaignId": "653aa7c2-4d3c-42ba-aba9-94060f52660d",
+              "couponId": null,
+              "name": "Kargo Bypass",
+              "order": 1,
+              "type": "DECREMENT"
+            }
+          ],
+          "orderLineItems": [
+            {
+              "createdAt": 1638189270536,
+              "currencyCode": "TRY",
+              "deleted": false,
+              "discount": null,
+              "discountPrice": null,
+              "finalPrice": 149.5,
+              "id": "0a6f539f-8338-400c-a3fc-2bc15c01da58",
+              "originalOrderLineItemId": "0a6f539f-8338-400c-a3fc-2bc15c01da58",
+              "price": 299,
+              "quantity": 1,
+              "status": "FULFILLED",
+              "statusUpdatedAt": null,
+              "stockLocationId": "a0d19a13-7603-4d75-9ed7-dc414b1df8df",
+              "taxValue": null,
+              "updatedAt": 1638189270536,
+              "variant": {
+                "barcodeList": [],
+                "id": "bd9b2bd8-0110-4ded-84c0-b8298332e469",
+                "mainImageId": "e047ce73-8b77-40f0-8f13-eff9c2b05f4f",
+                "name": "ikas Ürünü Siyah Kılıf - iPhone 11 Pro Max Kılıf Silikon",
+                "productId": "62bca022-12be-4e2b-a9dd-90c67cb89dcb",
+                "sku": null,
+                "slug": "ikas-urunu-siyah-kilif-iphone-11-pro-max-kilif-silikon",
+                "tagIds": [],
+                "taxValue": null,
+                "variantValues": []
+              },
+              "options": []
+            }
+          ],
+          "orderNumber": "1028",
+          "orderPackageStatus": "FULFILLED",
+          "orderPackages": [
+            {
+              "createdAt": 1638189270536,
+              "deleted": false,
+              "errorMessage": null,
+              "id": "a103735c-ece8-4a8f-9576-489f45c4487b",
+              "note": null,
+              "orderLineItemIds": ["0a6f539f-8338-400c-a3fc-2bc15c01da58"],
+              "orderPackageFulfillStatus": "FULFILLED",
+              "orderPackageNumber": "1028-1",
+              "stockLocationId": "a0d19a13-7603-4d75-9ed7-dc414b1df8df",
+              "trackingInfo": {
+                "barcode": "123456",
+                "cargoCompany": "UPS",
+                "isSendNotification": null,
+                "trackingLink": null,
+                "trackingNumber": "123456"
+              },
+              "updatedAt": 1638189270536
+            }
+          ],
+          "orderPaymentStatus": "PAID",
+          "orderSequence": 28,
+          "orderTagIds": [],
+          "orderedAt": 1637759203143,
+          "paymentMethods": [
+            {
+              "price": 170.5,
+              "type": "MONEY_ORDER"
+            }
+          ],
+          "priceList": null,
+          "salesChannel": {
+            "id": "9fa400f3-fbf1-4ee7-bc26-3cae7f9c3427",
+            "name": "Jack",
+            "type": 1
+          },
+          "shippingAddress": {
+            "addressLine1": "ikas A.Ş. Koru Mah. Ahmet Taner Kışlalı Cad. No:4/12 North Star İş Merkezi",
+            "addressLine2": null,
+            "city": {
+              "code": null,
+              "id": "6f9272a3-9924-4223-baf8-9b21c9360f0c",
+              "name": "Ankara"
+            },
+            "company": null,
+            "country": {
+              "code": "TUR",
+              "id": "da8c5f2a-8d37-48a8-beff-6ab3793a1861",
+              "name": "Turkey"
+            },
+            "district": {
+              "code": null,
+              "id": "0774fbd3-b818-463a-b697-2e28a8a6daed",
+              "name": "Çankaya"
+            },
+            "firstName": "ikas",
+            "identityNumber": null,
+            "isDefault": false,
+            "lastName": "docs",
+            "phone": "+905555555555",
+            "postalCode": null,
+            "state": {
+              "code": null,
+              "id": "dcb9135c-4b84-4c06-9a42-f359317a9b78",
+              "name": "Default"
+            },
+            "taxNumber": null,
+            "taxOffice": null
+          },
+          "shippingLines": [
+            {
+              "price": 21,
+              "shippingSettingsId": "ee4cc76c-f0c3-469f-ab8e-cc14b17fe78c",
+              "shippingZoneRateId": "db02cc2d-5ba3-4b5b-8147-fee010faca21",
+              "taxValue": null,
+              "title": "Kkk",
+              "isRefunded": null
+            }
+          ],
+          "shippingMethod": "SHIPMENT",
+          "status": "CREATED",
+          "storefront": {
+            "id": "8b742b03-c8f8-4509-858c-f9487c3701f2",
+            "name": "Jack"
+          },
+          "storefrontRouting": {
+            "domain": "tr",
+            "id": "d3d0b8d9-76c6-436b-a1ba-024c1f4f4a12",
+            "locale": "en",
+            "path": "en",
+            "priceListId": null
+          },
+          "storefrontTheme": {
+            "id": "69b1451f-3467-4c7b-8ce1-bf4fec8400f8",
+            "name": "test 6",
+            "themeId": "84a89e25-9826-4b65-b056-6cb98cfb318e",
+            "themeVersionId": "9da2385d-9fef-4066-8d3e-8377a5bf0e1b"
+          },
+          "taxLines": [],
+          "invoices": [],
+          "totalFinalPrice": 170.5,
+          "totalPrice": 299,
+          "updatedAt": 1638189270536,
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
+          "isGiftPackage": false,
+          "giftPackageNote": null,
+          "giftPackageLines": null
+        }
+      ]
+    }
+  }
+}

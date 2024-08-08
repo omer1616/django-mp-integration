@@ -6,11 +6,10 @@ class BaseIntegrationMixin:
     def __init__(self, channel_id, conf):
         self.channel_id = channel_id
         self.conf = conf
-        self.headers = {}
 
-    def _send_request(self, url, method, auth, **kwargs):
+    def _send_request(self, url, method, auth, headers, **kwargs):
         try:
-            response = requests.request(method, url, auth,  **kwargs)
+            response = requests.request(method=method, url=url, auth=auth, headers=headers, **kwargs)
             response.raise_for_status()
             return response
         except requests.RequestException as e:
@@ -18,22 +17,21 @@ class BaseIntegrationMixin:
             return None
 
     def get(self, url, auth, **kwargs):
-        return self._send_request(url=url,  method="GET",
+        return self._send_request(url=url, method="GET",
                                   auth=auth, **kwargs)
 
-
-    def delete(self, url, auth, **kwargs):
-        return self.send_request(url=url, method='DELETE', auth=auth,
+    def delete(self, url, auth, headers, **kwargs):
+        return self.send_request(url=url, method='DELETE', auth=auth, headers=headers,
                                  **kwargs)
 
-    def post(self, url, auth, **kwargs):
-        return self._send_request(url=url, method='POST', auth=auth,
+    def post(self, url, auth, headers, **kwargs):
+        return self._send_request(url=url, method='POST', auth=auth, headers=headers,
                                   **kwargs)
 
-    def put(self, url, auth, **kwargs):
-        return self._send_request(url=url, method='PUT', auth=auth,
+    def put(self, url, auth, headers, **kwargs):
+        return self._send_request(url=url, method='PUT', auth=auth, headers=headers,
                                   **kwargs)
 
-    def patch(self, url, auth, **kwargs):
-        return self._send_request(url=url, method='PATCH', auth=auth,
+    def patch(self, url, auth, headers, **kwargs):
+        return self._send_request(url=url, method='PATCH', auth=auth, headers=headers,
                                   **kwargs)
